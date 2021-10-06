@@ -1,0 +1,125 @@
+* {
+  padding: 0;
+  margin: 0%;
+  box-sizing: border-box;
+}
+body {
+  background-color: #fafafa;
+}
+:root {
+  --theme-color: rgb(6, 155, 86);
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+.card {
+  width: 320px;
+  height: 420px;
+  background: linear-gradient(to bottom, var(--theme-color) 110px, white 110px);
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(50, 50, 50, 0.1);
+  padding: 50px 0px;
+}
+.card * {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+.card img {
+  display: block;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  position: relative;
+  margin: 0 auto;
+  box-shadow: 0 0 0 7px white;
+}
+.card h4 {
+  margin: 10px 0px 5px 0px;
+  color: var(--theme-color);
+  font-size: 22px;
+}
+.card h5 {
+  color: #646363;
+  font-weight: 500;
+  font-size: 18px;
+}
+.details {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 30px;
+}
+.details h2 {
+  font-weight: 600;
+}
+.details span {
+  color: var(--theme-color);
+}
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+.buttons button {
+  width: 130px;
+  padding: 8px 0;
+  border-radius: 30px;
+  border: 3px solid var(--theme-color);
+  cursor: pointer;
+}
+.buttons .first {
+  background-color: var(--theme-color);
+  color: white;
+}
+.first:hover {
+  color: var(--theme-color);
+  background-color: #fafafa;
+}
+.buttons .second {
+  color: var(--theme-color);
+}
+.second:hover {
+  color: white;
+  background-color: var(--theme-color);
+}
+.themes {
+  margin-top: 30px;
+  width: 320px;
+  background-color: white;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(50, 50, 50, 0.1);
+}
+
+.themes .btn {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}
+.btn1 {
+  background-color: rgb(59, 139, 231);
+}
+.btn2 {
+  background-color: rgb(233, 13, 104);
+}
+.btn3 {
+  background-color: rgb(6, 155, 86);
+}
+.btn4 {
+  background-color: rgb(227, 241, 22);
+}
+.btn5 {
+  background-color: rgb(128, 0, 128);
+}
